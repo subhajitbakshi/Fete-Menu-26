@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedding Invitation - Subhajit & Sanghamitra</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Lato:wght@300;400&display=swap');
+
+    body {
+        background-color: #1a0202; /* Deepest Maroon */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .card {
+        background: linear-gradient(135deg, #420a0a 0%, #680d0d 100%);
+        width: 100%;
+        max-width: 480px;
+        padding: 40px 25px;
+        box-shadow: 0 0 40px rgba(212, 175, 55, 0.2); /* Golden Glow */
+        border: 2px solid #d4af37;
+        text-align: center;
+        position: relative;
+        color: #d4af37;
+        border-radius: 12px;
+        animation: slideUp 1s ease-out;
+    }
+
+    /* Decorative Corner Emojis */
+    .corner {
+        position: absolute;
+        font-size: 1.5rem;
+        opacity: 0.8;
+    }
+    .tl { top: 10px; left: 10px; transform: rotate(-45deg); }
+    .tr { top: 10px; right: 10px; transform: rotate(45deg); }
+    .bl { bottom: 10px; left: 10px; transform: rotate(-135deg); }
+    .br { bottom: 10px; right: 10px; transform: rotate(135deg); }
+
+    /* Typography */
+    h1, h2, h3 { font-family: 'Cinzel', serif; margin: 5px 0; }
+    
+    .om-symbol {
+        font-size: 3rem;
+        display: block;
+        margin-bottom: 10px;
+        text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+        animation: glow 2s infinite alternate;
+    }
+
+    .header-text {
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #d4af37;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    .host-names {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #ffdf80;
+        margin-bottom: 5px;
+    }
+
+    .script-font {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.8rem;
+        color: #fff;
+        margin: 10px 0;
+        text-shadow: 2px 2px 4px #000;
+        line-height: 1.2;
+    }
+
+    .sub-text {
+        font-size: 0.8rem;
+        color: #c9a55c;
+        margin-bottom: 15px;
+    }
+
+    /* Central Traditional Visual */
+    .wedding-icon {
+        font-size: 4rem;
+        margin: 20px 0;
+        animation: pulse 2s infinite;
+        filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.5));
+    }
+
+    /* Event Boxes */
+    .event-container {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid #8a6c1e;
+        border-radius: 8px;
+        margin: 20px 0;
+        padding: 20px;
+        transition: transform 0.3s;
+    }
+    .event-container:hover {
+        transform: scale(1.02);
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .event-icon {
+        font-size: 2rem;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .event-title {
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .details {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #e6c875;
+    }
+
+    .rsvp-box {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px dashed #d4af37;
+        font-size: 0.9rem;
+    }
+
+    /* Animations */
+    @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes glow { from { text-shadow: 0 0 10px #d4af37; } to { text-shadow: 0 0 25px #ffeb3b; } }
+    @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
+
+</style>
+</head>
+<body>
+
+<div class="card">
+    <div class="corner tl">🌸</div>
+    <div class="corner tr">🌸</div>
+    <div class="corner bl">🌸</div>
+    <div class="corner br">🌸</div>
+
+    <div class="om-symbol">🕉️</div>
+    <div class="header-text">|| Om Prajapataye Namah ||</div>
+
+    <div class="host-names">Mrs. Mandira Bakshi & Mr. Brajendra Lal Bakshi</div>
+    <div class="sub-text">Solicit your gracious presence for the union of their son</div>
+
+    <div class="script-font">Subhajit (Raja)</div>
+    <div class="sub-text">Son of Brajendralaal Bakshi & Mandira Bakshi</div>
+
+    <div style="font-size: 1.5rem; margin: 10px 0;">💞</div>
+
+    <div class="script-font">Sanghamitra (Puja)</div>
+    <div class="sub-text">Daughter of Mrs. Anima Jash & Late Anil Kumar Jash</div>
+
+    <div class="wedding-icon">🎻 🤵👰 🎺</div>
+
+    <div class="event-container">
+        <span class="event-icon">🔥</span> <div class="event-title">Shubho Bibaho</div>
+        <div class="details">
+            Wednesday, 4th March 2026<br>
+            (19th Falgun, 1432)<br>
+            📍 <strong>Bakshi Residence</strong><br>
+            Chanak, Mangalkote
+        </div>
+    </div>
+
+    <div class="event-container">
+        <span class="event-icon">🍛</span> <div class="event-title">Priti Sammelan</div>
+        <div class="details">
+            Friday, 6th March 2026 | 6:00 PM<br>
+            (21st Falgun, 1432)<br>
+            📍 <strong>Prayas Marriage Hall</strong><br>
+            Guskara Bus Stand, Purba Bardhaman
+        </div>
+    </div>
+
+    <div class="rsvp-box">
+        With Best Compliments: <strong>Bakshi Family</strong><br><br>
+        📞 RSVP: +91 94749 13929
+    </div>
+</div>
+
+</body>
+</html>
+
